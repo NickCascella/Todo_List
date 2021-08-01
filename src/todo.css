@@ -1,0 +1,184 @@
+html{
+    color: rgb(194, 190, 190);
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.mainButtons{
+    margin-top: 20px;
+    width: 150px;
+    height: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+#projectFolder{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#selection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#header {
+    width: 100%;
+    height: 200px;
+    background-color:rgb(75, 72, 72);
+    display: flex;
+    align-items: flex-end;
+}
+
+#logo{
+    margin-left: 10%;
+    font-size: 30px;
+}
+
+#body{
+    display: flex;
+    height: 1180px;
+}
+
+#selection{
+    background-color: gray ;
+    width: 20%;
+}
+
+#taskDisplay{
+    background-color: rgb(148, 148, 148);
+    width: 80%;
+}
+
+#generalDisplay{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+}
+
+.deleteProj{
+    position: relative;
+    right: 100px;
+    bottom: 12px;
+    font-size: 20px;
+}
+
+.addTaskButton{
+    margin-top: 15px;
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    color: white;
+
+}
+
+.task{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 30px;
+    color:white;
+    border-radius: 15%;
+    margin-left:10px;
+}
+
+.taskCancel{
+    margin-right: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.taskCancel:hover{
+    background-color: rgb(243, 104, 104);
+}
+
+.enterClick{
+    margin-left: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.enterClick:hover{
+    background-color: rgb(110, 242, 77);
+}
+
+.taskEnteredPriorityLow{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 30px;
+    color:white;
+    margin-left:10px;
+}
+
+.taskEnteredPriorityLow:hover{
+   background-color: rgb(115, 220, 74); ;
+}
+
+.taskEnteredPriorityMedium{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 30px;
+    color:white;
+    margin-left:10px;
+}
+
+.taskEnteredPriorityMedium:hover{
+    background-color: rgb(176, 181, 91); ;
+ }
+
+
+.taskEnteredPriorityHigh{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 30px;
+    color:white;
+    margin-left:10px;
+}
+
+ .taskEnteredPriorityHigh:hover{
+    background-color: rgb(255, 145, 81); ;
+ }
+
+
+.completedTask{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    background-color: white;
+}
+
+.taskTextDiv{
+    margin-left: 40px;
+}
+
+.firstDateClass{
+    margin-left: 10px;
+}
+
+.dateFormat{
+    position:fixed;
+    left: 1500px;
+    border-radius: 10px;
+    padding-bottom:10px;
+}
